@@ -96,7 +96,7 @@ namespace Demo_Advanced_C_02
             stack.Push(2);
             stack.Push(3);
             stack.Peek();
-            Console.WriteLine(stack.Peek());
+            Console.WriteLine(stack.Peek()); 
             Console.WriteLine("===================");
             foreach(int i in stack)
             {
